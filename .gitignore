@@ -1,0 +1,12 @@
+# The published site is intentionally minimal. Ignore EVERYTHING, then
+# allow-list only the files that belong on vivekbansal.com. This is a safety
+# net so local working material (notes/, gallery/, versions/, img/, configs
+# with personal prompts) can never be committed by an accidental `git add -A`.
+/*
+
+!index.html
+!archive.html
+!about.html
+!CNAME
+!.nojekyll
+!.gitignore
